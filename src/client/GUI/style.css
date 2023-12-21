@@ -1,0 +1,110 @@
+
+#root
+{
+    -fx-background-image: url("background_image.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1200 600;
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+
+.button
+{
+    -fx-border-width: 5px;
+    -fx-border-color: rgba(0, 0, 0, 0);
+    -fx-background-color: rgba(240,240,240,0);
+    -fx-border-radius: 50%;
+}
+
+.text-area
+{
+    -fx-border-style: dotted ;
+    -fx-border-color: #000000;
+    -fx-border-width: 1px;
+    -fx-font-size: 1.2em;
+}
+
+#credit
+{
+    -fx-border-style: dotted ;
+    -fx-border-color: #000000;
+    -fx-border-width: 1px;
+    -fx-font-size: .7em;
+}
+
+#open
+{
+    -fx-border-color: rgb(0, 0, 0);
+    -fx-background-color: rgba(242,242,242,0.5);
+    -fx-text-fill: black;
+}
+
+#error
+{
+    -fx-border-color: rgb(255, 17, 0);
+    -fx-background-color: rgba(242, 5, 0, 0.18);
+    -fx-text-fill: #b30400;
+}
+
+#close
+{
+    -fx-border-color: rgba(0, 0, 0, 0);
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-text-fill: rgba(0, 0, 0, 0);
+}
+
+#score, #score_board
+{
+    -fx-max-width: 200px;
+}
+
+.text-area .content
+{
+    -fx-background-color: linear-gradient(to right, rgba(125, 125, 125, 0.5) 0%, rgba(128, 252, 240, 0.14) 10%, rgba(0, 255, 253, 0.07) 90%, rgba(130, 130, 130, 0.5) 100%);
+}
+
+.text-area *.text
+{
+    -fx-padding: 5px;
+    /*-fx-text-alignment: center;*/
+}
+
+#win
+{
+    -fx-border-width: 5px;
+    -fx-effect: dropshadow( three-pass-box , rgb(0, 255, 32), 1, 1 , 0 , 0);
+}
+
+#lose
+{
+    -fx-border-width: 5px;
+    -fx-effect: dropshadow( three-pass-box , rgb(255, 17, 0), 1, 1 , 0 , 0);
+}
+
+#tie
+{
+    -fx-border-width: 5px;
+    -fx-effect: dropshadow( three-pass-box , rgb(0, 0, 0), 1, 1 , 0 , 0);
+}
+
+
+
+#good:pressed
+{
+    -fx-border-width: 5px;
+    -fx-effect: dropshadow( three-pass-box , rgb(0, 255, 32), 1, 1 , 0 , 0);
+}
+
+#bad:pressed
+{
+    -fx-border-width: 5px;
+    -fx-effect: dropshadow( three-pass-box , rgb(255, 17, 0), 1, 1 , 0 , 0);
+}
+
+
+.text-field
+{
+    -fx-border-style: dotted;
+    -fx-border-color: #000000;
+    -fx-border-width: 2px;
+}
